@@ -1,6 +1,12 @@
 # AI_Research_Agent
 AI Research Agent with memory using GPT-4o-mini and vector bases to search relevant papers based on interest.
 
+
+
+https://github.com/user-attachments/assets/40ca89b3-6a7a-46ff-90a5-4ef325f45201
+
+
+
 # The project utilizes the following python libraries
   * Streamlit for building web application
   * OpenAI for using GPT-4o-mini
@@ -14,4 +20,9 @@ Services are initilized when APIs are provided. MemO is configured with Qdrant a
 # Paper Search Functionality
 The paper search functionality retrieves relevant user memories and constructs a search prompt with user context. It uses MultiOn to browse ArXiv and GPT-4o-mini to process results which are displayed in the streamlit interface.
 
+# How to run
+- Clone this repo with : `git clone https://github.com/NavaneethRaj17/AI_Research_Agent.git`
+- Install all the packages with the command : `pip install -r requirements.txt`
+- Run streamlit using the command : `streamlit run ai_research_agent.py`
+- Once it runs you need to provide OpenAI Key, and then search for any research paper as shown in the above video.
 
